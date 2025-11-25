@@ -1,0 +1,68 @@
+# ===========================
+# NODE.JS DEPENDENCIES & BUILD FILES
+# ===========================
+/node_modules
+/dist
+/build
+npm-debug.log*
+yarn-error.log*
+yarn-error.log
+
+# ===========================
+# VIRTUAL ENVIRONMENTS (Generic)
+# ===========================
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+
+# ===========================
+# PYTHON CACHE / BUILD FILES (Included for structure consistency)
+# ===========================
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+# ***********************************
+
+# ===========================
+# ENVIRONMENT VARIABLES (CRITICAL)
+# ===========================
+# Keeps your database credentials and JWT secret safe
+.env
+*.env
+*.env.*
+
+# ===========================
+# GENERATED DATA & CACHE
+# ===========================
+/data/
+/logs/
+/uploads/
+/coverage/
+fast_cache/
+response_cache/
+
+# ===========================
+# SYSTEM / OS FILES
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# IDE / EDITOR CONFIG
+# ===========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===========================
+# TESTS / TEMP FILES
+# ===========================
+/tmp/
+/coverage/
+*.test.js
+*.spec.js
