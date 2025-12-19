@@ -53,11 +53,11 @@ Create a file named **`.env`** in the root directory and add your connection det
 
 ```env
 # Get this from your MongoDB Atlas cluster connection string
-MONGO_URI="mongodb+srv://sibams24btcseai_db_user:9FrAS1QVXZq7n40Y@cluster0.9d52x2n.mongodb.net/?appName=Cluster0" 
+MONGO_URI="   " 
 
 PORT=5000
 # Generate a long, random string for JWT_SECRET
-JWT_SECRET="supersecretkey12345"
+JWT_SECRET="  "
 ```
 
 ### 4\. Run the Backend Server
